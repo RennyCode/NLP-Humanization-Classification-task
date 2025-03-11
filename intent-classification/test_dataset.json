@@ -1,0 +1,532 @@
+[
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hey, I was wondering what kind of perks come with your premium plan? Worth the upgrade?"
+            }
+        ],
+        "expected_intent": "ASK_ABOUT_FEATURES"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Ugh, I think I made a mistake with my last purchase. Is there any way I could get my money back?"
+            },
+            {
+                "role": "assistant",
+                "content": "Can you provide the transaction details?"
+            },
+            {
+                "role": "user",
+                "content": "Yeah, it was back on Feb 10th - I paid about $50 for it. Should be on my credit card."
+            }
+        ],
+        "expected_intent": "REQUEST_REFUND"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "This is getting frustrating... is there any way I can just talk to an actual human being instead?"
+            }
+        ],
+        "expected_intent": "REQUEST_HUMAN"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "So I bought something last week but I'm not really happy with it. Can I send it back somehow?"
+            },
+            {
+                "role": "assistant",
+                "content": "Yes, we have a 30-day return policy. Do you have your receipt?"
+            },
+            {
+                "role": "user",
+                "content": "Yep, got it right here! What do I need to do next?"
+            }
+        ],
+        "expected_intent": "INQUIRE_RETURN_POLICY"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm trying to figure out if it's worth upgrading. What's the difference between your basic and premium plans?"
+            },
+            {
+                "role": "assistant",
+                "content": "The premium plan offers additional features like unlimited storage and faster support."
+            },
+            {
+                "role": "user",
+                "content": "Oh nice, that actually sounds pretty good. How much would that set me back each month?"
+            }
+        ],
+        "expected_intent": "COMPARE_PRODUCTS"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hey there! Just checking in - how's your day going so far?"
+            }
+        ],
+        "expected_intent": "GREET"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hey, I'm having some trouble with my account and could really use some help."
+            },
+            {
+                "role": "assistant",
+                "content": "Sure, what seems to be the issue?"
+            },
+            {
+                "role": "user",
+                "content": "Ugh, I totally blanked on my password and now I can't get into my account. Been trying for like 20 minutes!"
+            }
+        ],
+        "expected_intent": "RESET_PASSWORD"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Your app is giving me a headache right now. I'm running into some weird technical issues with it."
+            }
+        ],
+        "expected_intent": "ASK_TECHNICAL_SUPPORT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Something's up with your app - it's acting super weird on my phone today."
+            },
+            {
+                "role": "assistant",
+                "content": "I\u2019m sorry to hear that. What issue are you facing?"
+            },
+            {
+                "role": "user",
+                "content": "Every time I try to open it, it just crashes immediately. I've tried restarting my phone and everything!"
+            }
+        ],
+        "expected_intent": "ASK_TECHNICAL_SUPPORT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Argh, I've been locked out of my account! Completely forgot my password and now I can't get in."
+            }
+        ],
+        "expected_intent": "RESET_PASSWORD"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "So I bought something last week that I'm not happy with. Any chance I could get my money back?"
+            }
+        ],
+        "expected_intent": "REQUEST_REFUND"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hi there! I've been thinking about upgrading to your premium plan. Seems like it might be worth it."
+            },
+            {
+                "role": "assistant",
+                "content": "Our premium plan offers extra features and priority support."
+            },
+            {
+                "role": "user",
+                "content": "That sounds interesting! What exactly would I be getting for the extra money?"
+            }
+        ],
+        "expected_intent": "ASK_ABOUT_FEATURES"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hey there! I'm a bit confused about how to use your product. Could you give me a hand?"
+            }
+        ],
+        "expected_intent": "REQUEST_ASSISTANCE"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm trying to budget for the next few months - how much would your service cost me per month?"
+            }
+        ],
+        "expected_intent": "ASK_ABOUT_PRICING"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I think I need to cancel my subscription. Been trying to cut down on monthly expenses lately."
+            }
+        ],
+        "expected_intent": "MANAGE_SUBSCRIPTION"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "You've been super helpful with this! Really appreciate you taking the time to sort this out for me."
+            }
+        ],
+        "expected_intent": "THANK"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I ordered something a few days ago and I'm getting a bit anxious. Any way to see where my package is?"
+            },
+            {
+                "role": "assistant",
+                "content": "Of course! Can you provide your order number?"
+            },
+            {
+                "role": "user",
+                "content": "Let me check... here it is - #78910. Any idea when it'll arrive?"
+            }
+        ],
+        "expected_intent": "TRACK_ORDER"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hi there. I just placed an order but realized I made a mistake. Need to cancel it ASAP if possible!"
+            },
+            {
+                "role": "assistant",
+                "content": "Can you provide your order number?"
+            },
+            {
+                "role": "user",
+                "content": "Sure thing, it's #12345. Hope I caught it in time!"
+            }
+        ],
+        "expected_intent": "CANCEL_ORDER"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Look, no offense, but I really need to talk to an actual person about this. Is that possible?"
+            },
+            {
+                "role": "assistant",
+                "content": "Sure! I can connect you now. Can you briefly describe the issue?"
+            },
+            {
+                "role": "user",
+                "content": "There's something weird going on with my billing this month. Need someone who can actually fix it."
+            }
+        ],
+        "expected_intent": "REQUEST_HUMAN"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've been meaning to schedule a consultation for ages. Do you have any openings next week by any chance?"
+            },
+            {
+                "role": "assistant",
+                "content": "What date and time would work best for you?"
+            },
+            {
+                "role": "user",
+                "content": "I'm pretty flexible, but Wednesday afternoon around 3 would be perfect if you have it."
+            }
+        ],
+        "expected_intent": "BOOK_APPOINTMENT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm having a rough day. Mind lightening the mood with a joke or something funny?"
+            }
+        ],
+        "expected_intent": "TELL_JOKE"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "The basic plan isn't cutting it anymore. How do I bump up to the premium version?"
+            }
+        ],
+        "expected_intent": "UPGRADE_PLAN"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've been browsing your site for like 20 minutes and can't find what I'm looking for. Could you help me locate a specific product?"
+            }
+        ],
+        "expected_intent": "SEARCH_PRODUCT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Something came up and I won't be able to make my appointment tomorrow. Need to cancel it, sorry!"
+            }
+        ],
+        "expected_intent": "CANCEL_APPOINTMENT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm totally new to this whole thing. What would you suggest for someone just starting out?"
+            }
+        ],
+        "expected_intent": "GET_RECOMMENDATIONS"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm trying to find your store but Google Maps is being weird. Where are you guys located exactly?"
+            }
+        ],
+        "expected_intent": "SHARE_LOCATION"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I hate to say this, but I'm really disappointed with the service I received yesterday. It was honestly terrible."
+            }
+        ],
+        "expected_intent": "EXPRESS_DISSATISFACTION"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Just wanted to say your product is amazing! Seriously, it's made such a difference - best purchase I've made all year!"
+            }
+        ],
+        "expected_intent": "EXPRESS_SATISFACTION"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "So I've been working on this project and could really use a second opinion. Mind taking a look and telling me what you think?"
+            }
+        ],
+        "expected_intent": "PROVIDE_FEEDBACK"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Something came up at work and I can't make my appointment tomorrow. Any chance we could move it to next week instead?"
+            }
+        ],
+        "expected_intent": "RESCHEDULE_APPOINTMENT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm trying to plan ahead - do you guys have any openings next week? Preferably in the afternoon if possible."
+            }
+        ],
+        "expected_intent": "CHECK_AVAILABILITY"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've had it with these constant issues. I want to file a formal complaint about what happened yesterday."
+            }
+        ],
+        "expected_intent": "SUBMIT_COMPLAINT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Just double-checking that my reservation for Friday is still good to go? Don't want any surprises when I show up."
+            }
+        ],
+        "expected_intent": "CONFIRM"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "There's no way I made those purchases! I absolutely did not authorize those charges on my account."
+            }
+        ],
+        "expected_intent": "DENY"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've been trying to sign up for like 10 minutes but keep hitting roadblocks. Can you walk me through creating an account?"
+            }
+        ],
+        "expected_intent": "CREATE_ACCOUNT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I moved recently and need to change my address and phone number in the system. How do I update my info?"
+            }
+        ],
+        "expected_intent": "UPDATE_ACCOUNT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've decided to take a break from your service. What's the process for permanently deleting my account?"
+            }
+        ],
+        "expected_intent": "DELETE_ACCOUNT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm not sure how much credit I have left on my account. Could you tell me my current balance?"
+            }
+        ],
+        "expected_intent": "CHECK_BALANCE"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I ordered something a few days ago and haven't heard anything. Any update on where my order is at?"
+            }
+        ],
+        "expected_intent": "CHECK_STATUS"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "The premium plan is a bit too expensive for me right now. How do I switch back to the basic version?"
+            }
+        ],
+        "expected_intent": "DOWNGRADE_PLAN"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm wondering about delivery times - how long does shipping usually take to reach California?"
+            }
+        ],
+        "expected_intent": "INQUIRE_SHIPPING"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "That item keeps showing as 'out of stock' on your website. Do you know if you'll be getting more anytime soon?"
+            }
+        ],
+        "expected_intent": "CHECK_INVENTORY"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Your app has been super glitchy today. It keeps freezing on the checkout page - thought you should know about it."
+            }
+        ],
+        "expected_intent": "REPORT_ISSUE"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I'm in meetings all day but really need to talk to someone about this. Could someone from your team call me back later today?"
+            }
+        ],
+        "expected_intent": "REQUEST_CALLBACK"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I need a copy of my invoice for my expense report. Any way you could email me the receipt from my last purchase?"
+            }
+        ],
+        "expected_intent": "REQUEST_DOCUMENT"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've been using your app for months and it would be SO much better if it had dark mode. Any chance that's in the works?"
+            }
+        ],
+        "expected_intent": "REQUEST_FEATURE"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "I've been browsing your catalog and finally decided on what I want. Can you help me put in an order for the blue model?"
+            }
+        ],
+        "expected_intent": "PLACE_ORDER"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "So... how about that local sports team? They've been playing pretty well lately, don't you think?"
+            }
+        ],
+        "expected_intent": "MAKE_SMALL_TALK"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Hi there! I'm new to your service and just wanted to introduce myself. Looking forward to chatting with you!"
+            }
+        ],
+        "expected_intent": "START_CONVERSATION"
+    },
+    {
+        "conversation": [
+            {
+                "role": "user",
+                "content": "Thanks for all your help today! I think I've got everything I needed, so we can wrap this up now."
+            }
+        ],
+        "expected_intent": "END_CONVERSATION"
+    }
+]
